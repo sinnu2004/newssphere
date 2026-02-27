@@ -101,17 +101,6 @@ lib/
 
 ---
 
-## 🔧 Replacing the API
-
-The app is built for **NewsAPI.org** by default. To use a different API:
-
-1. Update `AppConstants.baseUrl` in `app_constants.dart`
-2. Update query parameters in `news_remote_datasource.dart`
-3. Update `NewsResponseModel` in `article_model.dart` to match your JSON structure
-4. Update `_$ArticleModelFromJson` in `article_model.g.dart`
-
----
-
 ## 📦 Key Dependencies
 
 | Package | Purpose |
@@ -129,8 +118,6 @@ The app is built for **NewsAPI.org** by default. To use a different API:
 | `url_launcher` | Open article URLs |
 
 ---
-
-## 📱 Screenshots
 
 The app includes:
 - **Home Screen**: Carousel, category chips, mixed card/list layout
